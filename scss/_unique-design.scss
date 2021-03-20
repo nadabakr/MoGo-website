@@ -1,0 +1,13 @@
+    .unique-design {
+        background-image: url(/imgs/unique-bg.png);
+        background-position: center;
+        background-size: cover;
+        height: 30rem;
+        &__img {
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0rem;
+            width: 20.8rem;
+        }
+    }

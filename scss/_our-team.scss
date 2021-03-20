@@ -1,0 +1,25 @@
+.team-content {
+    position: relative;
+}
+
+.team-overlay {
+    @extend %graient-hover;
+    font-size: xx-large;
+    padding-top: 12rem;
+    height: 76% !important;
+}
+
+.team:hover .team-overlay {
+    @extend %bgcolor-hover;
+}
+
+.team-hover-icon {
+    padding: .3rem;
+    border-right: 1px solid $pinkyColor;
+    background-color: $activeColor;
+    color: $pinkyColor;
+}
+
+.team-hover-icon:hover {
+    color: $primaryColor;
+}

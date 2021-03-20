@@ -1,0 +1,17 @@
+.active {
+    color: $activeColor !important;
+    text-decoration: underline;
+}
+
+.fixed-nav #navbar {
+    background: linear-gradient(135deg, #f8dc79 0%, rgba(241, 114, 114, 0.96));
+    animation-duration: .5s;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0)
+    }
+}

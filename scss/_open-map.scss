@@ -1,0 +1,13 @@
+.open-map {
+    background-image: url(/imgs/map-bg.png);
+    background-position: center;
+    background-size: contain;
+    height: 12rem;
+    a {
+        color: $pinkyColor !important;
+        text-decoration: none;
+    }
+    i {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,13 @@
+.about-img {
+    position: relative;
+}
+
+.overlay {
+    @extend %graient-hover;
+    font-size: xx-large;
+    padding-top: 5rem;
+}
+
+.about-us__imgs:hover .overlay {
+    @extend %bgcolor-hover;
+}

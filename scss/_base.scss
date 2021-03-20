@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    font-size: 3rem;
+    color: $primaryColor;
+}
+
+.active {
+    color: yellow;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.serv-icon {
+    font-size: 2.5rem;
+    color: $secondaryColor;
+}
+
+h2::after {
+    content: '';
+    height: 0.2rem;
+    width: 5rem;
+    display: block;
+    background: $pinkyColor;
+    position: absolute;
+    margin: 1.5rem auto;
+    left: 0;
+    right: 0;
+}
+
+.opacity-bgcolor {
+    background-color: $opacityColor;
+}
+
+p {
+    color: $textmutedColor;
+}

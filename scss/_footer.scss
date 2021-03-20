@@ -1,0 +1,28 @@
+footer {
+    background-color: $lightColor;
+    button {
+        background-color: $secondaryColor;
+    }
+    button:hover {
+        background-color: $pinkyColor;
+    }
+    i {
+        padding: .3rem .1rem;
+        border-radius: .5rem;
+        color: $secondaryColor;
+        margin-left: 1rem;
+    }
+    i:hover {
+        background-color: $pinkyColor;
+        color: $primaryColor;
+    }
+    a {
+        color: $textmutedColor;
+    }
+    a:hover {
+        color: $pinkyColor;
+    }
+    span {
+        color: $pinkyColor;
+    }
+}

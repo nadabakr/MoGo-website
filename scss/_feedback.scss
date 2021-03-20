@@ -1,0 +1,13 @@
+.feedback {
+    img {
+        @include avatar(100%);
+    }
+}
+
+@media (max-width: 360px) {
+    .feedback {
+        img {
+            height: 20%;
+        }
+    }
+}

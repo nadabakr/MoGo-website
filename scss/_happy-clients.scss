@@ -1,0 +1,20 @@
+.client-img {
+    @include avatar(50%);
+}
+
+.happy-clients {
+    background-image: url(/imgs/clients-bg.png);
+    background-position: center;
+    background-size: cover;
+    h6::after {
+        content: '';
+        height: 0.16rem;
+        width: 5rem;
+        display: block;
+        background: #f08484;
+        position: absolute;
+        margin: 1.5rem auto;
+        left: 1rem;
+        top: 4rem;
+    }
+}

@@ -1,0 +1,11 @@
+.badge-btn {
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    width: 15%;
+    position: absolute;
+    top: 8rem;
+    left: .3rem;
+    span {
+        font-size: large;
+    }
+}

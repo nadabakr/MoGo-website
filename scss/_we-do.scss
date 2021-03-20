@@ -1,0 +1,22 @@
+.we-do-icon {
+    color: $secondaryColor;
+    font-size: 1.5rem;
+}
+
+.we-do {
+    #collapseOne,
+    #collapseThree,
+    #collapseTwo {
+        max-height: 10rem;
+    }
+     ::-webkit-scrollbar {
+        width: 5px;
+    }
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 8px rgba(128, 128, 128, 0.555);
+    }
+     ::-webkit-scrollbar-thumb {
+        background: $secondaryColor;
+        border-radius: 1rem;
+    }
+}
